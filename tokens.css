@@ -1,0 +1,42 @@
+:root {
+  /* 1. Primitive Tokens (базові кольори та розміри) */
+  --slate-950: #0a0e17;
+  --slate-900: #131b2e;
+  --slate-800: #1e293b;
+  --slate-400: #94a3b8;
+  --slate-100: #f1f5f9;
+  --cyan-400: #00f2fe;
+  --cyan-500: #06b6d4;
+  --red-500: #ef4444;
+
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius-sm: 8px;
+  --radius-lg: 16px;
+
+  /* 2. Semantic Tokens (ролі в інтерфейсі) */
+  --bg-canvas: var(--slate-950);
+  --bg-surface: var(--slate-900);
+  --bg-elevated: var(--slate-800);
+  --text-primary: var(--slate-100);
+  --text-muted: var(--slate-400);
+  --color-accent: var(--cyan-400);
+  --color-danger: var(--red-500);
+  --border-subtle: var(--slate-800);
+
+  /* 3. Component Tokens (токени конкретних елементів) */
+  --card-bg: var(--bg-surface);
+  --card-radius: var(--radius-lg);
+  --card-padding: var(--space-6);
+
+  --btn-primary-bg: var(--color-accent);
+  --btn-primary-text: var(--slate-950);
+  --btn-radius: var(--radius-sm);
+
+  --input-bg: var(--bg-canvas);
+  --input-border: var(--border-subtle);
+}
